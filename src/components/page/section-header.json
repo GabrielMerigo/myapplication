@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_section_headers",
+  "info": {
+    "displayName": "SectionHeader",
+    "icon": "heading"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "button": {
+      "displayName": "button",
+      "type": "component",
+      "repeatable": false,
+      "component": "page.button",
+      "required": false
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_page_section_about_projects",
+  "info": {
+    "displayName": "SectionAboutProject",
+    "icon": "info-circle"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

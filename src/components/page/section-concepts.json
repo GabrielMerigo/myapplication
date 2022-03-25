@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_concepts",
+  "info": {
+    "displayName": "SectionConcepts",
+    "icon": "brain",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "concepts": {
+      "displayName": "concepts",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.concepts",
+      "min": 12
+    },
+    "title": {
+      "type": "string"
+    }
+  }
+}

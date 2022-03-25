@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_page_reviews",
+  "info": {
+    "displayName": "reviews",
+    "icon": "eye"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "private": true
+    },
+    "name": {
+      "type": "string",
+      "required": true,
+      "default": "name"
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

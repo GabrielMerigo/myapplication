@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_reviews",
+  "info": {
+    "displayName": "SectionReview",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "reviews": {
+      "displayName": "reviews",
+      "type": "component",
+      "repeatable": true,
+      "component": "page.reviews",
+      "required": true,
+      "min": 4
+    }
+  }
+}

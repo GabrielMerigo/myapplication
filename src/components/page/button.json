@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_buttons",
+  "info": {
+    "displayName": "button",
+    "icon": "expand"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string",
+      "required": true,
+      "default": "label"
+    },
+    "url": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
