@@ -9,11 +9,11 @@
   "attributes": {
     "url": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "label": {
       "type": "string",
-      "required": true
+      "required": false
     }
   }
 }

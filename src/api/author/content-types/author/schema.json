@@ -15,29 +15,29 @@
     "photo": {
       "type": "media",
       "multiple": false,
-      "required": true,
+      "required": false,
       "allowedTypes": [
         "images"
       ]
     },
     "name": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "rule": {
       "type": "string",
-      "required": true
+      "required": false
     },
     "links": {
       "displayName": "links",
       "type": "component",
       "repeatable": true,
       "component": "page.links",
-      "required": true
+      "required": false
     },
     "description": {
       "type": "text",
-      "required": true
+      "required": false
     }
   }
 }
